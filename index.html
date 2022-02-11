@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyUnicorn</title>
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <style>
+         body{
+            background-image: url(./img/background.png);
+            margin:0;
+	        padding:0;        
+        }
+        .photos{
+            display: inline-block;
+        }
+        .cadre{
+            display: inline-block;
+        }
+
+
+        #unicorn{
+            background-image: url(img/rainbow.png);
+            height: 200px;
+            width: 600px;
+            margin-bottom:0;
+            text-align: center;
+            margin-left: 340px;
+        }
+
+        #content{
+            width: 1300px;
+            margin: auto;
+        }
+
+        #title{
+            padding-top: 75px;
+        }
+
+        h1{
+            text-align: center;
+            font-family: 'Courgette', cursive;
+            color: #C55394;
+        }
+
+        h2,h3{
+            font-family: 'Courgette', cursive;
+            color: #EB43A3;
+        }
+
+        .item{
+            color: white;
+            text-decoration: none; color: white;
+            float: left;
+            display: inline-block;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+            height: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        a{text-decoration: none; color: white;}
+
+        #en-tete{
+            float: left;
+            font-size: 16pt;
+            font-family: 'Courgette', cursive;
+            color: white;
+            padding-top: 5px;
+            padding-left: 20px;
+            bottom: 20px;
+            position:relative;
+        }
+
+        #menu{
+            margin: 0;
+            width:auto;
+            text-align: center;
+            float:right;
+        }
+
+        nav {
+        background-color: #C55394;
+        list-style-type: none;
+        text-align: center;
+        height: 40px;
+        width: 100%;
+        overflow: hidden;
+        }
+
+        footer{
+
+            background-color: #E577B5;
+            padding: 5px;
+            color:white;
+            width: 100%;
+            height: 40px;
+        }
+
+        article{
+            width: 1300px;
+            border: #f0f2f5;
+            border-width: 10px;
+            border-style: solid;
+            margin-top:0;
+            margin-bottom: 50px;
+            border-radius: 20px;
+            padding: 20px;
+            background-color: white;
+            font-family: Arial, sans-serif;
+
+        }
+
+        #map{
+            display: inline-block;
+            float:left;
+        }
+
+        #localisation{
+            display: inline-block;
+            float: right;
+            margin-left: 20px;
+        }
+
+        #coordonnee{
+            display: inline-block;
+        }
+
+        .label{
+            color:white;
+            background-color: black;
+            opacity: 0.8;
+            text-align: center;
+            padding-top: 10px;
+            top: 245px;
+            position: relative;
+            height: 30px;
+        }
+
+        :hover.item{
+            background-color: #EB43A3;
+            height: 30px;
+        }
+
+        .cadre1{
+            width: 300px;
+            height: 299px;
+            background-image: url(./img/unicorns/photo1.jpg);
+            display: inline-block;
+        }
+
+        :hover.cadre1{
+            width: 300px;
+            height: 299px;
+            background-image: url(./img/unicorns/photo1.jpg) ;
+            display: inline-block;
+            background-size: 120%;
+        }
+
+        .cadre2{
+            width: 300px;
+            height: 299px;
+            background-image: url(./img/unicorns/photo2.jpg);
+            display: inline-block;
+        }
+
+        :hover.cadre2{
+            width: 300px;
+            height: 299px;
+            background-image: url(./img/unicorns/photo2.jpg);
+            display: inline-block;
+            background-size: cover;
+            background-size: 120%;
+
+        }
+        
+        .cadre3{
+            width: 300px;
+            height: 299px;
+            background-image: url(./img/unicorns/photo3.jpg);
+            display: inline-block;
+        }
+        
+        :hover.cadre3{
+            width: 300px;
+            height: 299px;
+            background-image: url(./img/unicorns/photo3.jpg);
+            display: inline-block;
+            background-size: cover;
+            background-size: 120%;
+        }
+
+        .cadre4{
+            width: 300px;
+            height: 299px;
+            background-image: url(./img/unicorns/photo4.jpg);
+            display: inline-block;
+        }
+
+        :hover.cadre4{
+            width: 300px;
+            height: 299px;
+            background-image: url(./img/unicorns/photo4.jpg);
+            display: inline-block;
+            background-size: cover;
+            background-size: 120%;
+        }
+
+        #validation{
+            background-color: #EB43A3;
+            border-color: #EB43A3;
+            color:white;
+            height: 1.9em;
+        }
+        
+        header{
+            width:100%;
+        }
+
+        #Copyright{
+            float: right;
+        }
+
+    </style>
+</head>
+
+<body>
+
+            <header>
+            <nav>
+                <div id="en-tete">
+                    <p id="topic">MyUnicorn</p>
+                </div>
+
+                <div id="menu">
+                        <li class="item"><a href="#Principe"> LE PRINCIPE </a></li>
+                        <li class="item"><a href="#Nos-Licornes"> NOS LICORNES</a></li>
+                        <li class="item"><a href="#Nous-trouver"> NOUS TROUVER </a></li>
+                </div>
+            </nav>
+            </header>
+            <div id="content">
+                 <div id="unicorn">
+                    <h1 id="title"> Un jour, une licorne</h1>
+                </div>
+
+                <article>
+                
+                <p id="Principe">
+
+                <h2 class="subtitle"><i class="fa fa-star-o fa-lg"></i>&nbsp Le principe</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non sodales ipsum sollicitudin sed.</p>
+                <p>Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce eleifend lacinia orci eu iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa lacus. Aenean quis enim diam.</p>
+                
+                <p id="Nos-Licornes">
+                <h2 class="subtitle"><i class="fa fa-star-o fa-lg"></i>&nbsp Nos licornes</h2>
+                
+                
+                            <div id="photos">    
+                                <div class="cadre1">
+                                    <p class="label">Lulu Confetty</p>
+                                </div>
+                                
+                                <div class="cadre2">                
+                                    <p class="label">Lapillon magik</p>
+                                </div>
+
+                                <div class="cadre3">
+                                    <p class="label">El Ninjacorn</p>
+                                </div>
+                                
+                                <div class="cadre4">
+                                    <p class="label">Sweety Candy</p>
+                                </div>
+                            </div>
+                </p>
+
+                <p id="Nous-trouver">
+
+                <h2 class="subtitle"><i class="fa fa-star-o fa-lg"></i>&nbsp Nous trouver</h2>
+                
+                <div id="coordonnee">
+                        <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2625.2611857672136!2d2.353544433778143!3d48.85322966904956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fd10fa77a9%3A0xb2bbd365849898f2!2sWebForce3%20Paris%204%C3%A8me%20-%20Formation%20D%C3%A9veloppeur%20web%2C%20Technicien%20syst%C3%A8mes%20r%C3%A9seaux%2C%20Charg%C3%A9%20de%20projet%20digital...!5e0!3m2!1sfr!2smg!4v1643888350831!5m2!1sfr!2smg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            </p>
+                        </div>
+                        
+                        <div id="localisation">
+                            <h3>Notre élevage de licornes est situé au:</h3>
+                            
+                            <p>Analakely  Market <br> Arabe Rahezavana, Antananarivo, Madagascar <br> 01.22.45.67.90 </p>
+
+                            <h3>Newsletter</h3>
+                            
+                            <p>Abonnez-vous simplement à notre newsletter mensuelle !<br> 
+
+                            <form action="newsletter.php" method="POST">
+                            <input id="adresse" type="text" value="votre@email.fr">
+                            <input id="validation" type="submit" value="Valider">
+                            </form>
+
+                            </p>
+                            
+                        </div>
+                </div>
+                </p>
+                </article>
+            </div>
+        <footer>
+            <p id="Copyright">2022 &#169 Victoire NAFETSE</p>
+        </footer>
+</body>
+
+
+</html>
